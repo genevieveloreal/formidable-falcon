@@ -36,9 +36,14 @@ body {
 }
 
 .pictures {
-    margin-top: 50px;
+    padding-bottom: 20px;
 }
 
 .thumbnail {
     
+}
+
+.footer {
+    background: none;
+    border: none;
 }
