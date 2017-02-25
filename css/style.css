@@ -1,6 +1,7 @@
 body {
     background-color: rgba(0, 206, 209, 0.2);
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 .jumbotron {
     margin-top: 20px;
@@ -18,6 +19,27 @@ body {
 
 .col-md-4 {
     border: 1px solid red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+.instructions:hover {
+    color: blue;
+}
+
+.instructions-blurb p {
+    line-height: 3em;
 }
 
 .fade {
@@ -45,5 +67,6 @@ body {
 
 .footer {
     background: none;
+    color: darkturquoise;
     border: none;
 }
