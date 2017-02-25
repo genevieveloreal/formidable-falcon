@@ -1,4 +1,44 @@
+body {
+    background-color: rgba(0, 206, 209, 0.2);
+    font-family: 'Open Sans', sans-serif;
+}
 .jumbotron {
     margin-top: 20px;
-    background-color: lavender;
+    background-color: darkturquoise;
+}
+
+.jumbotron h1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.subheading {
+    color: white;
+}
+
+.col-md-4 {
+    border: 1px solid red;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+.clearfix {
+  overflow: auto;
+}
+
+.pictures {
+    margin-top: 50px;
+}
+
+.thumbnail {
+    
 }
