@@ -38,8 +38,9 @@ h1 a:hover {
     color: blue;
 }
 
-.instructions-blurb p {
-    line-height: 3em;
+.instructions-list {
+    line-height: 2em;
+    font-size: 21px;
 }
 
 .fade {
