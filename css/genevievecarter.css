@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+}
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+.clearfix {
+  overflow: auto;
+}
+
+h1 {
+    margin-top: -40px;
+    padding-top: 20px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/canary.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+}
+
+.footer {
+    background: none;
+    border: none;
+}
