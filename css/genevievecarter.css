@@ -20,9 +20,25 @@ h1 {
   overflow: auto;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 h1 {
     margin-top: -40px;
     padding-top: 20px;
+}
+
+.attribute {
+    font-weight: 700;
+}
+
+p {
+    font-size: 21px;
+}
+
+.profile-information {
+    line-height: 3em;
 }
 
 .parallax {
@@ -42,6 +58,7 @@ h1 {
 .section1 {
     height: 500px;
     background-color: lightgoldenrodyellow;
+    opacity: 
 }
 
 .footer {
