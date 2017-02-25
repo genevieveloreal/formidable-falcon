@@ -43,6 +43,11 @@ h1 a:hover {
     font-size: 21px;
 }
 
+.instructions-link {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .fade {
    opacity: 1;
    transition: opacity .25s ease-in-out;
