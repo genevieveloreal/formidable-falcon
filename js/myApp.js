@@ -8,27 +8,27 @@ let agents = [
     }, {
         name: "Jacky-Lui",
         codeName: "Iron Eagle",
-        img: "images/matthew.jpg",
+        img: "https://placehold.it/200x200",
         html: "profiles/jacky-lui.html"
     }, {
         name: "Matthew",
         codeName: "Courageous Condor",
-        img: "images/jacky.jpg",
+        img: "https://placehold.it/200x200",
         html: "profiles/matthew-burfield.html"
     }, {
         name: "Nimai",
         codeName: "Nobble Noddy",
-        img: "images/nimai.jpg",
+        img: "https://placehold.it/200x200",
         html: "profiles/nimaiwalsh.html"
     }, {
         name: "Daniel",
         codeName: "Dangerous Dodo",
-        img: "images/daniel.jpg",
+        img: "https://placehold.it/200x200",
         html: "profiles/daniel.html"
     }, {
         name: "Greg",
         codeName: "Sleepy Eagle",
-        img: "images/greg.jpg",
+        img: "https://placehold.it/200x200",
         html: "profiles/greg.html"
     }
 ];
