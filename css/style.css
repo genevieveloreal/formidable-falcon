@@ -13,8 +13,9 @@ body {
     color: white;
 }
 
-.subheading {
+.jumbotron .subheading {
     color: white;
+    font-size: 1.2em;
 }
 
 .col-md-4 {
