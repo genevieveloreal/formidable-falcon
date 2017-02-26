@@ -7,12 +7,12 @@ let agents = [
         html: "profiles/genevievecarter.html"
     }, {
         name: "Jacky-Lui",
-        codeName: "",
+        codeName: "Iron Eagle",
         img: "images/matthew.jpg",
         html: "profiles/jacky-lui.html"
     }, {
         name: "Matthew",
-        codeName: "Iron Eagle",
+        codeName: "Courageous Condor",
         img: "images/jacky.jpg",
         html: "profiles/matthew-burfield.html"
     }, {
