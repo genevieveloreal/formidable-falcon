@@ -28,7 +28,7 @@ let agents = [
     }, {
         name: "Greg",
         codeName: "Sleepy Eagle",
-        img: "https://placehold.it/200x200",
+        img: "images/greg.jpg",
         html: "profiles/greg.html"
     }
 ];
