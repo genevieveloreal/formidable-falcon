@@ -2,7 +2,7 @@
 A top secret project for Southside Free Code Camp meet up group that not even the government knows about (not even)
 
 ## Instructions
-You will need a github account and git installed on your computer. To contribute to the project scaryCanary will need to add you as a contributor.
+You will need a GitHub account and git installed on your computer. To contribute to the project scaryCanary will need to add you as a contributor.
 
 1. Ensure you have an up to date version of the Formidable Falcon project on your computer
 2. Create a new .html file in the profiles folder for your profile page
@@ -11,7 +11,7 @@ You will need a github account and git installed on your computer. To contribute
 5. Add information and style your profile page
 6. Information you will need to include:
   - Your code name
-  - A link to your github account
+  - A link to your GitHub account
   - A photo of yourself
   - A description
   - Hobbies, or favourite sayings
