@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(0, 206, 209, 0.2);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.jumbotron {
+    margin-top: 20px;
+    background-color: darkturquoise;
+}
+
+.jumbotron h1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.jumbotron .subheading {
+    color: white;
+    font-size: 1.2em;
+}
+
+.col-md-4 {
+    border: 1px solid red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+.instructions:hover {
+    color: blue;
+}
+
+.instructions-list {
+    line-height: 2em;
+    font-size: 21px;
+}
+
+.instructions-link {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
+.clearfix {
+  overflow: auto;
+}
+
+.pictures {
+    padding-bottom: 20px;
+}
+
+.thumbnail {
+    
+}
+
+.footer {
+    background: none;
+    color: darkturquoise;
+    border: none;
+}
