@@ -6,9 +6,9 @@ let agents = [
         img: "images/genevieve.jpg",
         html: "profiles/genevievecarter.html"
     }, {
-        name: "Jacky-Lui",
+        name: "Jacky",
         codeName: "Iron Eagle",
-        img: "https://placehold.it/200x200",
+        img: "images/Jacky-cosplay.jpeg",
         html: "profiles/jacky-lui.html"
     }, {
         name: "Matthew",
