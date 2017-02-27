@@ -18,7 +18,7 @@ let agents = [
     }, {
         name: "Nimai",
         codeName: "Nobble Noddy",
-        img: "images/nimai-profile.jpg",
+        img: "images/nimai-profile1.jpg",
         html: "profiles/nimaiwalsh.html"
     }, {
         name: "Daniel",
