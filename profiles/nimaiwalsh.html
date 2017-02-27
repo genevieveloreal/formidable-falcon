@@ -4,16 +4,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Profile of Nimai Walsh - Web Developer">
         
-        <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap.min.css">        
-        <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap-theme.min.css">   
+        <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap-theme.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="../css/nimaiwalsh.css">
 
         <title>Profile of nobbleNoddy - Web Developer</title>
     </head>
     
     <body>
-      
-       <head>
+    <div class="bg-img"></div> 
+    <div class="page-bg"></div>
+        <head>
+            <!-- Navbar -->
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,30 +44,41 @@
                 </div>
                 <!-- /.container-fluid -->
             </nav>
-       </head>
-       
-       <section class="profile">
-           <div class="container">
+        </head>
+
+        <section class="profile">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 col-sm-offset-1">Pic</div>
-                    <div class="col-sm-7">Text</div>
+                    <div class="col-xs-12 col-sm-7 col-sm-push-4" id="profile-text">
+                        <h3>Nimai Walsh<small class="text-muted"> codename: nobleNoddy</small></h3>
+                        <p>Learning to be a professional Web Developer through freeCodeCamp and a number of other resources.</p>
+                        <p>I have given up on becoming a professional Web Developer a number of times because I have been so overwhelemed with the amount of content and resources available and always lose my way. I also feel I'm never good enough and that there is always someone better and greater.</p>
+                        <p>This time it is different, I will learn at my own pace and with the support of our newfound coding group - Formidable Falcons.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-sm-offset-1 col-sm-pull-7" id="profile-img"><figure class="tint"><img src="../images/nimai-profile.jpg"></figure></div>
+
                 </div>
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">"Insert my awesome quote"</div>
+                    <div class="col-sm-10 col-sm-offset-1" id="quote"><p>"Be the change you wish to see in the world"</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5 col-sm-offset-1">1</div>
-                    <div class="col-sm-5">2</div>
+                    <div class="col-sm-10 col-sm-offset-1" id="social">
+                        <ul>
+                            <li><a href="https://www.freecodecamp.com/nimaiwalsh" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+                            <li><a href="https://github.com/nimaiwalsh" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://twitter.com/nimaiwalsh" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        </ul>     
+                    </div>
                 </div>
-           </div>
-       </section>
-       
-       <footer>
-           
-       </footer>
-       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-       <script src="../vendor/js/bootstrap.min.js"></script>
-      
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="../vendor/js/bootstrap.min.js"></script>
         
     </body>
 </html>

@@ -1,4 +1,55 @@
-/*Brand icon*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+h3 small {
+    font-weight: 100;
+}
+
+/*Background image*/
+.bg-img {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;     
+}
+.page-bg {
+    background-image: url('../images/noddy-bird-background-min.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    filter: blur(15px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;   
+}
+
+/*Navbar*/
+.navbar {
+    border-radius: 0;
+}
+
 .navbar-brand {
     margin: 0;
     padding: 0;
@@ -9,7 +60,96 @@
    width: auto;
 }
 
-/*Profile settings*/
+/*PROFILE SECTION*/
+
+/*Profile row*/
 .profile {
+    color: white;
     margin-top: 10%;
+}
+
+.profile p {
+    font-weight: 300;
+}
+
+.profile div {
+    margin-top: 1.5rem;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border: solid #5f3a27 5px;
+    display: block;
+}
+
+.tint {
+    cursor: pointer;
+    position: relative;
+}
+
+.tint::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(95, 58, 39, 0.43);
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.tint:hover::before { background: none; }
+
+/*Quote row*/
+
+#quote p {
+    background: rgba(4, 148, 239, 0.7);
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+/*Social row*/
+#social ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem; 
+    font-size: 3rem;
+}
+
+#social ul li {
+    display: inline-block;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0;
+    border-right: solid rgba(255, 248, 248, 0.5) 3px;
+}
+
+#social ul li a {
+    color: #0494ef; 
+}
+
+#social ul li a:visited {
+    
+}
+
+#social ul li i.fa-free-code-camp:hover {
+    color: #006400;
+}
+
+#social ul li i.fa-github:hover {
+    color: #fafafa;
+}
+
+#social ul li i.fa-twitter:hover {
+    color: #55acee;
+}
+
+
+#social ul li:last-child {
+    border-right: none;
 }
