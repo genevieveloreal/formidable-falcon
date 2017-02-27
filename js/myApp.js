@@ -18,7 +18,7 @@ let agents = [
     }, {
         name: "Nimai",
         codeName: "Nobble Noddy",
-        img: "https://placehold.it/200x200",
+        img: "images/nimai-profile.jpg",
         html: "profiles/nimaiwalsh.html"
     }, {
         name: "Daniel",
