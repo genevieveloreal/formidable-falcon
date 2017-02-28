@@ -43,4 +43,7 @@ function loadAgents() {
         agentsList.appendChild(agentHtml);
     });
 }
-loadAgents();
+if (document.querySelector('title').innerText === "Formidable Falcon"){
+    loadAgents();
+    console.log('PFF');
+}
