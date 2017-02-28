@@ -28,8 +28,8 @@ let agents = [
     }, {
         name: "Greg",
         codeName: "Sleepy Eagle",
-        img: "images/greg.jpg",
-        html: "profiles/greg.html"
+        img: "profiles/greg/img/greg.jpg",
+        html: "profiles/greg/greg.html"
     }
 ];
 
