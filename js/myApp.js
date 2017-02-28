@@ -8,7 +8,12 @@ let agents = [
     }, {
         name: "Jacky",
         codeName: "Iron Eagle",
+<<<<<<< HEAD
         img: "images/Jacky-cosplay-thumbnail.jpg",
+=======
+        img: "images/Jacky-cosplay.jpeg",
+        img_background: "/images/dinosaurbird.jpeg",
+>>>>>>> bran
         html: "profiles/jacky-lui.html"
     }, {
         name: "Matthew",
