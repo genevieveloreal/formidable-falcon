@@ -23,7 +23,7 @@ let agents = [
     }, {
         name: "Daniel",
         codeName: "Dangerous Dodo",
-        img: "https://placehold.it/200x200",
+        img: "images/dangerous-dodo-200.png",
         html: "profiles/daniel.html"
     }, {
         name: "Greg",
