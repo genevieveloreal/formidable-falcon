@@ -7,48 +7,64 @@
         <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap.min.css">        
         <link rel="stylesheet" type="text/css" href="../vendor/css/bootstrap-theme.min.css">   
         <link rel="stylesheet" type="text/css" href="../css/jackyLui.css">
-
-        <title>Profile of Jacky Lui - Web Developer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">         
+        <title>Jacky Lui</title>
     </head>
     
     <body>
       
-       <head>
-           <div class = "container-fluid"> <!-- yeah recode in my own style so that it's not an exact copy of scaryCanary -->
-           <div class="navdesign navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../index.html">Formidable Falcon</a>
-                </div> <!--navbar-header-->     
-           <div class="navdesign collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav">
-                            <li class="active"><a href="../profiles/genevievecarter.html">scaryCanary<span class="sr-only">(current)</span></a></li>
-                            <li><a href="greg.html">sleepyEagle</a></li>
-                            <li><a href="nimaiwalsh.html">nobleNoddy</a></li>
-                            <li><a href="jacky-lui.html">ironFalcon</a></li>
-                            <li><a href="matthew-burfield.html">courageousCondor</a></li>
-                      </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                    </form>                      
-                </div> <!-- navbar collapse --> 
-                </div> <!-- container-fluid -->
-       </head>
+    <head>
+        <div class = "container-fluid"> <!-- yeah recode in my own style so that it's not an exact copy of scaryCanary -->   
+            <div>
+                <ul class="nav navbar-nav navDesign">
+                    <li><a href = "../index.html"> <b>Formidable Falcon</b></a></li>
+                    <li><a href="../profiles/genevievecarter.html">scaryCanary</a></li>
+                    <li><a href="../profiles/greg/greg.html">sleepyEagle</a></li>
+                    <li><a href="nimaiwalsh.html">nobleNoddy</a></li>
+                    <li class="active"><a href="../profiles/jackylui.html">ironFalcon<span class="sr-only">(current)</span></a></li>
+                    <li><a href="matthew-burfield.html">courageousCondor</a></li>
+                </ul>                     
+            </div> <!-- navbar collapse --> 
+        </div> <!-- container-fluid -->
+    </head>
        
-       <section>
-           <div class = "imageBackground"></div>
-           <div><h1> Iron Falcon</h1></div>
-            <h2> <em> so secret that no one knows his secret identity, even himself! </em></h2>
-           <img src = "../images/Jacky-cosplay.jpeg">
-           
-       </section>
+    <section>
+        <div class= "container-fluid">
+            <div class = "imageBackground"> <img src="../images/whitebird.jpeg" alt="hipster bird picture"></div>
+            <hr> 
+            <div> <!-- this will surrounded by a small border -->
+                
+                <div><h1 class = "header"> Iron Falcon</h1></div>
+                <div class = "rows">
+                    <div class = "col-xs-3" style="text-align:center"><img src = "../images/Jacky-cosplay.jpeg" class = "profilePic" width = "200" alt="jacky photo";> </div>
+                    <div class = "col-xs-1"></div>
+                    <div class = "col-xs-4 description"> <p> Jacky is a small town guy who has big dreams for himself! He loves cliches and the old-school.
+                    He thinks that Dinosaurs 2.0 are overrated and is trying to revert back to a world of Dinosaurs 1.0 
+                    and Nokia 3310 brick phones.                      
+                    <br><br>
+                    In all seriousness, he is a web developer and wants to build the next Snappy Flamingo, Knifey Vegetables or 
+                    FaceSpace the social network.
+                    <br><br>
+                    His hobbies are making cultural references even though he knows nothing about culture and trying to come
+                    first at everything, but he may as well be in La La Land.
+                    </p></div>
+                    <div class = "col-xs-1"></div>
+                    <div class = "col-xs-3"><p class = "quote"><em>Is this the real life? Is this just fantasy? Caught in a landslide. No escape from reality </em> - Queen</p> </div>
+                </div> 
+                <!-- include linkedin and github-->
+                <div class="row">  
+                    <div class="col-xs-10" id="social">
+                        <ul>
+                            <li style = "float:right"><a href="https://www.freecodecamp.com/Recelis" target="_blank"><i class="fa fa-free-code-camp logo"></i></a></li>
+                            <li style = "float:right"><a href="https://github.com/recelis" target="_blank"><i class="fa fa-github logo"></i></a></li>
+                            <li style = "float:right"><a href="https://www.linkedin.com/in/jackymlui/" target="_blank"><i class="fa fa-linkedin logo"></i></a></li>
+                        </ul>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
        
        <footer>
            
