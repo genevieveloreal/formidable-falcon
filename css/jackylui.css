@@ -1,79 +1,84 @@
 body {
-    background-color: rgba(0, 206, 209, 0.2);
+    background-color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-.jumbotron {
-    margin-top: 20px;
-    background-color: darkturquoise;
+    color: black;
 }
 
-.jumbotron h1 {
-    font-family: 'Pacifico', cursive;
+hr{
+    width: 300;
+    color: #a3a3c2;
+    border-width: 3px;
+}
+.header{
+    font-family: 'Libre Baskerville', serif;
+    font-size:2x;
+    text-align:center;
+}
+.imageBackground{
+    text-align:center;
+    padding: 20px;
+}
+
+.profilePic{
+    border-radius: 10%;
+}
+
+.quote{
+    text-align:center;
+    font-size:20px;
+}
+
+.description{
+    padding:5px;
+    font-size: 20px;
+    text-align:center;
+}
+
+#social ul li {
+    display: inline-block;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0;
+    border-right: solid rgba(255, 248, 248, 0.5) 3px;
+    color:black;
+    font-size:20px;
+}
+
+.formidFalcLogo{
+    background-color: #333;
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
+    overflow: hidden;
     color: white;
 }
 
-.jumbotron .subheading {
-    color: white;
-    font-size: 1.2em;
+.navDesign {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
 }
 
-.col-md-4 {
-    border: 1px solid red;
+li {
+    float: left;
 }
 
-a {
+li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
+.logo {
+    display: inline-block;
+    color: black;
 }
 
-h1 a:hover {
-    color: white;
-}
-
-.instructions:hover {
-    color: blue;
-}
-
-.instructions-list {
-    line-height: 2em;
-    font-size: 21px;
-}
-
-.instructions-link {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-
-   .fade:hover {
-      opacity: 0.5;
-      }
-
-.clearfix {
-  overflow: auto;
-}
-
-.pictures {
-    padding-bottom: 20px;
-}
-
-.thumbnail {
-    
-}
-
-.footer {
-    background: none;
-    color: darkturquoise;
-    border: none;
+.active {
+    background-color: dimgrey;
 }

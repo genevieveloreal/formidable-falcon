@@ -9,7 +9,8 @@ let agents = [
         name: "Jacky",
         codeName: "Iron Eagle",
         img: "images/Jacky-cosplay-thumbnail.jpg",
-        html: "profiles/jacky-lui.html"
+        img: "images/Jacky-cosplay.jpeg",
+        html: "profiles/jackylui.html"
     }, {
         name: "Matthew",
         codeName: "Courageous Condor",
@@ -45,5 +46,4 @@ function loadAgents() {
 }
 if (document.querySelector('title').innerText === "Formidable Falcon"){
     loadAgents();
-    console.log('PFF');
 }
