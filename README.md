@@ -20,9 +20,9 @@ You will need a GitHub account and git installed on your computer. To contribute
 
 ### Project Conventions
 
-*Create your own folder in the profiles section to store you html, css, js and img files.
-*Use your codename in camelCase to name your files.
-*Use the same navbar component (This component is yet to be implemented)
+* Create your own folder in the profiles section to store you html, css, js and img files.
+* Use your codename in camelCase to name your files.
+* Use the same navbar component (This component is yet to be implemented)
 
 **Bonus Challenge!** 
 
