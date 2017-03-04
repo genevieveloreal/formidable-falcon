@@ -47,3 +47,4 @@ function loadAgents() {
 if (document.querySelector('title').innerText === "Formidable Falcon"){
     loadAgents();
 }
+console.log('myapp');
