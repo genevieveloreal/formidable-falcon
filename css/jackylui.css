@@ -16,8 +16,11 @@ hr{
 }
 .imageBackground{
     text-align:center;
-    padding: 20px;
-    max-width:600px;
+    padding: 60px;
+}
+
+#imageBackSource{
+    max-width:300px;
     width: 100%;
     height: auto;
 }
