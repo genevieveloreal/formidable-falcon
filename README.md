@@ -15,9 +15,15 @@ You will need a GitHub account and git installed on your computer. To contribute
   - A photo of yourself
   - A description
   - Hobbies, or favourite sayings
-7. Commit your changes to the Formidable Falcon project
+7. Commit your changes to the Formidable Falcon  project
 8. Ask for feedback on your profile page!
 
-**Bonus Challenge!**
+### Project Conventions
+
+*Create your own folder in the profiles section to store you html, css, js and img files.
+*Use your codename in camelCase to name your files.
+*Use the same navbar component (This component is yet to be implemented)
+
+**Bonus Challenge!** 
 
 For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.
