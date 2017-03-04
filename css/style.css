@@ -18,10 +18,6 @@ body {
     font-size: 1.2em;
 }
 
-.col-md-4 {
-    border: 1px solid red;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -66,10 +62,14 @@ h1 a:hover {
 
 .pictures {
     padding-bottom: 20px;
+    overflow: hidden;
 }
 
-.thumbnail {
-    
+
+.pictures img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 35px;
 }
 
 .footer {
