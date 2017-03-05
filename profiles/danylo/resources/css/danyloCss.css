@@ -1,0 +1,58 @@
+html{
+    background-image: url("../../resources/img/pattern3.png");
+    font-family: sans-serif;
+}
+
+#container{
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header{
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.8);
+    border-radius: 50px;
+    padding: 5% 5% 10px 5%;
+}
+
+header h1{
+  font-size: 4vmax;
+  clear: left;
+}
+header img{
+    padding-bottom: 10px;
+    width: 33.3%;
+    float: left;
+}
+
+main{
+    background-color: rgba(16, 17, 17, 0.9);
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    padding: 5% 5% 10px 5%;
+}
+
+main h1{
+    font-size: 2vmax;
+    color: rgb(125,94,30);
+
+}
+
+main p{
+    color: rgb(250, 255, 240);
+}
+
+
+#underlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 255, 240, 0.8);
+    transition: all 1.2s linear;
+}
