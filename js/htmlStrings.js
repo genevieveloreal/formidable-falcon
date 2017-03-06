@@ -23,4 +23,10 @@ let htmlInstructions = `
                     <p><b>Bonus Challenge!</b></p>
                     <p>For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.</p>`;
 
+let htmlGreg = `<section>
+          <h1 style="background-color: darkred;" >We have a Green Light</h1>
+          <br>
+          <button type="button" >Don't Click Me!</button>
+       </section>`;
+
 

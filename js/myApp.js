@@ -30,7 +30,7 @@ let agents = [
         name: "Greg",
         codeName: "Sleepy Eagle",
         img: "profiles/greg/img/greg.jpg",
-        html: "profiles/greg/greg.html"
+        html: "handlers.loadGreg()"
     }
 ];
 
@@ -46,6 +46,10 @@ let handlers = {
             view.loadAgents();
         }
         
+    },
+    loadGreg () {
+        document.querySelector('title').innerText = agents[5].codeName;
+        document.getElementById('pageInfo').innerHTML = htmlGreg;
     }
 }
 
@@ -56,8 +60,8 @@ let view = {
         agents.forEach(function(agent){
             let agentHtml = document.createElement('div');
             agentHtml.classList.add("col-md-3", "col-sm-6", "col-xs-6");
-            agentHtml.innerHTML = `<a href=" ${ agent.html } ">
-            <img src=" ${ agent.img } " class="fade" alt=" ${ agent.codeName } "></a>`;
+            agentHtml.innerHTML = `<span onclick=" ${ agent.html } ">
+            <img src=" ${ agent.img } " class="fade" alt=" ${ agent.codeName } "></span>`;
             agentsImageDiv.appendChild(agentHtml);
         });
         agentsImageDiv.classList.add('pictures', 'row', 'clearfix');
@@ -70,7 +74,7 @@ let view = {
         myUl.innerHTML = '';
         agents.forEach(function(agent){
             let myLi = document.createElement('li');
-            myLi.innerHTML = `<a href="${ agent.html }"> ${ agent.codeName } </a> `;
+            myLi.innerHTML = `<button onclick=" ${ agent.html }"> ${ agent.codeName } </button> `;
             myUl.appendChild(myLi);
         });
     },
