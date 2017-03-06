@@ -1,21 +1,5 @@
-<!DOCTYPE HTML>
-<html class="full" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-        <meta name="description" content="Formidable Falcon">
-        <link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap.min.css">        
-        <link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap-theme.min.css">   
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">s
-        <title>Formidable Falcon</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="jumbotron clearfix">
-                <h1 class="text-center"><a href="index.html">Formidable Falcon</a></h1>
-                <p class="text-center subheading">There is no escaping the fear of the Falcon</p>
+
+let htmlInstructions = ` 
                     <h2><b>Instructions</b></h2>
                     <p>You will need a github account and git installed on your computer. To contribute to the project <a href="profiles/genevievecarter.html">scaryCanary</a> will need to add you as a contributor.</p>
                     <ol class="instructions-list">
@@ -37,12 +21,6 @@
                         <li>Ask for feedback on your profile page!</li>
                     </ol>
                     <p><b>Bonus Challenge!</b></p>
-                    <p>For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.</p>
-            </div>
-        <div class="panel panel-default footer">
-            <div class="panel-body">
-                 <p class="text-center">&copy; Southside freeCodeCamp Brisbane 2017</p>
-            </div>
-        </div>
-    </body>
-</html>
+                    <p>For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.</p>`;
+
+
