@@ -26,4 +26,4 @@ function rotate(){
         }
     }
 }
- setInterval(rotate, 10);
+ setInterval(rotate, 20);

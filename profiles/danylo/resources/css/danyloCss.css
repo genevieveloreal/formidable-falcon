@@ -10,11 +10,15 @@ html{
     
 }
 
+header, main, footer{
+    box-shadow: 1px 1px 10px rgba(16, 17, 17, 0.9);
+}
 header{
     text-align: center;
-    background-color: rgba(255, 255, 255,0.8);
+    background-color: rgba(200, 102, 14, 0.8);
     border-radius: 50px;
     padding: 5% 5% 10px 5%;
+    perspective: 1000px;
 }
 
 header h1{
@@ -23,22 +27,18 @@ header h1{
 }
 header img{
     padding-bottom: 10px;
-    width: 33.3%;
-    float: left;
+    width: 20%;
 }
 
 main{
     background-color: rgba(16, 17, 17, 0.9);
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
     border-radius: 50px;
     padding: 5% 5% 10px 5%;
 }
 
-main h1{
+main h2{
     font-size: 2vmax;
-    color: rgb(125,94,30);
+    color: rgba(225, 102, 14, 0.9);
 
 }
 
@@ -46,13 +46,37 @@ main p{
     color: rgb(250, 255, 240);
 }
 
+.wrapper{
+    display: flex;
+}
+#profile{
+    border-radius:30px;
+    padding: 10px;
+}
 
+footer{
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 5% 10px 5%;
+    background-color: rgba(225, 102, 14, 0.8);
+}
+
+footer a {
+    font-size: 125%;
+    color: rgba(16, 17, 17, 0.9);
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: rgba(16, 17, 17, 0.9);
+    text-decoration: none;
+}
 #underlay{
     position: absolute;
     top: 0;
     left:0;
     width: 100%;
     height: 100%;
-    background-color: rgba(250, 255, 240, 0.8);
-    transition: all 1.2s linear;
+    background-color: rgba(255, 233, 178, 0.8);
+    transition: all 2.5s linear;
 }
