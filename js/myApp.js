@@ -34,17 +34,33 @@ let agents = [
     }
 ];
 
+console.log('myapp');
+
 function loadAgents() {
-    let agentsList =  document.getElementById('agentsList');
+    let agentsList =  document.getElementById('pageInfo');
+    let agentsImageDiv = document.createElement('div');
     agents.forEach(function(agent){
         let agentHtml = document.createElement('div');
         agentHtml.classList.add("col-md-3", "col-sm-6", "col-xs-6");
         agentHtml.innerHTML = `<a href=" ${ agent.html } ">
         <img src=" ${ agent.img } " class="fade" alt=" ${ agent.codeName } "></a>`;
-        agentsList.appendChild(agentHtml);
+        agentsImageDiv.appendChild(agentHtml);
+    });
+    agentsImageDiv.classList.add('pictures', 'row', 'clearfix');
+    agentsList.innerHTML = '';
+    agentsList.appendChild(agentsImageDiv);
+}
+
+function buildNav() {
+    let myUl = document.getElementById('myNavbar');
+    myUl.innerHTML = '';
+    agents.forEach(function(agent){
+        let myLi = document.createElement('li');
+        myLi.innerHTML = `<a href="${ agent.html }"> ${ agent.codeName } </a> `;
+        myUl.appendChild(myLi);
     });
 }
 if (document.querySelector('title').innerText === "Formidable Falcon"){
     loadAgents();
 }
-console.log('myapp');
+buildNav();
