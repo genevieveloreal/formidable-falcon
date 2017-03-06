@@ -39,6 +39,13 @@ console.log('myapp');
 let handlers = {
     loadInstructions: function () {
         view.loadInstructions();
+    },
+    home: function() {
+        if (document.querySelector('title').innerText !== 'Formidable Falcon'){
+            document.querySelector('title').innerText = 'Formidable Falcon';
+            view.loadAgents();
+        }
+        
     }
 }
 
