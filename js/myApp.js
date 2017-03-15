@@ -25,7 +25,7 @@ let agents = [
         name: "Daniel",
         codeName: "Dangerous Dodo",
         img: "images/dangerous-dodo-200.png",
-        html: "profiles/daniel.html"
+        html: "handlers.loadDan()"
     }, {
         name: "Greg",
         codeName: "Sleepy Eagle",
@@ -50,7 +50,11 @@ let handlers = {
     loadGreg () {
         document.querySelector('title').innerText = agents[5].codeName;
         document.getElementById('pageInfo').innerHTML = htmlGreg;
-    }
+    },
+    loadDan () {
+        document.querySelector('title').innerText = agents[4].codeName;
+        document.getElementById('pageInfo').innerHTML = htmlDan;
+    },
 }
 
 let view = {

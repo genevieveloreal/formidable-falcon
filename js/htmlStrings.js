@@ -24,9 +24,18 @@ let htmlInstructions = `
                     <p>For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.</p>`;
 
 let htmlGreg = `<section>
-          <h1 style="background-color: darkred;" >We have a Green Light</h1>
+          <h1 style="background-color: darkred;" >We have a Green Light ${ agents[4].codeName }</h1>
           <br>
           <button type="button" >Don't Click Me!</button>
        </section>`;
 
-
+let htmlDan = `<div class="container">
+      <img src="./images/dangerous-dodo.png" alt="Badass Dodo">
+      <div id='dd-profile'>
+        <span>codename: ${ agents[4].codeName }</span>
+        <span>description: Dodo militant from the lost continent of Zealandia.</span>
+        <span>hobbies: Coding, Dodoing, Stuff</span>
+        <span>favourite saying: Survival separates the dodos from the beasts.</span>
+        <span></span>
+      </div>
+    </div>`;
