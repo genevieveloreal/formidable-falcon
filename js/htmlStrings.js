@@ -39,3 +39,26 @@ let htmlDan = `<div class="container">
         <span></span>
       </div>
     </div>`;
+
+let htmlGenevieve = `<div class="parallax"></div>
+           <div class="section1">
+                
+                <h1 class="text-center">${ agents[0].codeName }</h1>
+                <div class="container">
+                <div class="col-md-3">
+                    <img src="images/genevieve.jpg">
+                </div>
+                <div class="col-md-9">
+                    <div class="profile-information">
+                    <p><span class="attribute">Codename:</span> scaryCanary</br>
+                    <span class="attribute">Github:</span> <a href="http://github.com/genevieveloreal">genevieveloreal</a></br>
+                    <span class="attribute">About:</span> scaryCanary and her sidekick pudgieBudgie are practically inseparable.</br>
+                    <span class="attribute">Hobbies:</span> Bird-watching and the smell of old books.</br>
+                    <span class="attribute">Favourite sayings:</span> <i>"The code works... but I don't know why."</i></br>
+                    </p>
+                    </div>
+                </div>
+                
+                </div>
+                
+           </div>`;

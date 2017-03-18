@@ -4,7 +4,7 @@ let agents = [
         name: "Genevieve",
         codeName: "Scary Canary",
         img: "images/genevieve.jpg",
-        html: "profiles/genevievecarter.html"
+        html: "handlers.loadGenevieve()"
     }, {
         name: "Jacky",
         codeName: "Iron Falcon",
@@ -54,6 +54,10 @@ let handlers = {
     loadDan () {
         document.querySelector('title').innerText = agents[4].codeName;
         document.getElementById('pageInfo').innerHTML = htmlDan;
+    },
+    loadGenevieve () {
+        document.querySelector('title').innerText = agents[0].codeName;
+        document.getElementById('pageInfo').innerHTML = htmlGenevieve;
     },
 }
 
