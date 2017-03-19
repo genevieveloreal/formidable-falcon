@@ -89,7 +89,7 @@ let htmlJacky = `<div class= "container-fluid">
                 <div class="row">  
                     <div class="col-xs-10" id="social">
                         <ul>
-                            <li style = "float:right"><a href="https://www.freecodecamp.com/Recelis" target="_blank"><i class="fa fa-free-code-camp logo"></i></a></li>
+                            <li style = "float:right"><a href="https://www.freecodecamp.com/Recelis" target="_blank"><i class="fa fa-free-code-camp logo"></i></a></li> <!-- make sure these work-->
                             <li style = "float:right"><a href="https://github.com/recelis" target="_blank"><i class="fa fa-github logo"></i></a></li>
                             <li style = "float:right"><a href="https://www.linkedin.com/in/jackymlui/" target="_blank"><i class="fa fa-linkedin logo"></i></a></li>
                         </ul>     
