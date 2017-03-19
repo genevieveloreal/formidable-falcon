@@ -8,9 +8,8 @@ let agents = [
     }, {
         name: "Jacky",
         codeName: "Iron Falcon",
-        imgBackground: "../images/dinosaurbird.jpeg",
-        img: "images/Jacky-cosplay.jpeg",
-        html: "profiles/jackylui.html"
+        img: "profiles/jacky/img/jacky-cosplay-thumbnail.jpg",
+        html: "handlers.loadJacky()"
     }, {
         name: "Matthew",
         codeName: "Courageous Condor",
@@ -59,6 +58,10 @@ let handlers = {
         document.querySelector('title').innerText = agents[0].codeName;
         document.getElementById('pageInfo').innerHTML = htmlGenevieve;
     },
+    loadJacky () {
+        document.querySelector('title').innerText = agents[1].codeName;
+        document.getElementById('pageInfo').innerHTML = htmlJacky;
+    }
 }
 
 let view = {
