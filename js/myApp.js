@@ -9,6 +9,7 @@ let agents = [
         name: "Jacky",
         codeName: "Iron Falcon",
         img: "profiles/jacky/img/jacky-cosplay-thumbnail.jpg",
+        imgBackground: "profiles/jacky/img/dinosaurbird.jpeg",
         html: "handlers.loadJacky()"
     }, {
         name: "Matthew",
