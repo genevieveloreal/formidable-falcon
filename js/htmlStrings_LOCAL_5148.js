@@ -40,7 +40,6 @@ let htmlDan = `<div class="container">
       </div>
     </div>`;
 
-<<<<<<< HEAD
 let htmlGenevieve = `<div class="parallax"></div>
            <div class="section1">
                 
@@ -77,39 +76,3 @@ let htmlJacky = `<div class="container">
     first at everything, but he may as well be in La La Land.</p>
     </div>`; // make me tidy please
 
-=======
-let htmlJacky = `<div class= "container-fluid">
-            <div class = "imageBackground"> <img id = "imageBackSource" src="${agents[1].imgBackground}" alt="hipster bird picture" style="max-width:300px;width: 100%;height: auto"></div>
-            <hr> 
-            <div> <!-- this will not be surrounded by a small border -->
-                
-                <div><h1 class = "header"> Iron Falcon</h1></div>
-                <div class = "rows">
-                    <div class = "col-xs-3" style="text-align:center"><img src = "${agents[1].img}" id = "JackyPic" class = "profilePic" alt="jacky photo";> </div>
-                    <div class = "col-xs-1"></div>
-                    <div class = "col-xs-4 description"> <p> Jacky is a small town guy who has big dreams for himself! He loves cliches and the old-school.
-                    He thinks that Dinosaurs 2.0 are overrated and is trying to revert back to a world of Dinosaurs 1.0 
-                    and Nokia 3310 brick phones.                      
-                    <br><br>
-                    In all seriousness, he is a web developer and wants to build the next Snappy Flamingo, Knifey Vegetables or 
-                    FaceSpace the social network.
-                    <br><br>
-                    His hobbies are making cultural references even though he knows nothing about culture and trying to come
-                    first at everything, but he may as well be in La La Land.
-                    </p></div>
-                    <div class = "col-xs-1"></div>
-                    <div class = "col-xs-3"><p class = "quote"><em>Is this the real life? Is this just fantasy? Caught in a landslide. No escape from reality </em> - Queen</p> </div>
-                </div> 
-                <!-- include linkedin and github-->
-                <div class="row">  
-                    <div class="col-xs-10" id="social">
-                        <ul>
-                            <li style = "float:right"><a href="https://www.freecodecamp.com/Recelis" target="_blank"><i class="fa fa-free-code-camp logo"></i></a></li>
-                            <li style = "float:right"><a href="https://github.com/recelis" target="_blank"><i class="fa fa-github logo"></i></a></li>
-                            <li style = "float:right"><a href="https://www.linkedin.com/in/jackymlui/" target="_blank"><i class="fa fa-linkedin logo"></i></a></li>
-                        </ul>     
-                    </div>
-                </div>
-            </div>
-        </div>`;
->>>>>>> branch

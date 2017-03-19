@@ -40,44 +40,6 @@ let htmlDan = `<div class="container">
       </div>
     </div>`;
 
-<<<<<<< HEAD
-let htmlGenevieve = `<div class="parallax"></div>
-           <div class="section1">
-                
-                <h1 class="text-center">${ agents[0].codeName }</h1>
-                <div class="container">
-                <div class="col-md-3">
-                    <img src="images/genevieve.jpg">
-                </div>
-                <div class="col-md-9">
-                    <div class="profile-information">
-                    <p><span class="attribute">Codename:</span> scaryCanary</br>
-                    <span class="attribute">Github:</span> <a href="http://github.com/genevieveloreal">genevieveloreal</a></br>
-                    <span class="attribute">About:</span> scaryCanary and her sidekick pudgieBudgie are practically inseparable.</br>
-                    <span class="attribute">Hobbies:</span> Bird-watching and the smell of old books.</br>
-                    <span class="attribute">Favourite sayings:</span> <i>"The code works... but I don't know why."</i></br>
-                    </p>
-                    </div>
-                </div>
-                
-                </div>
-                
-           </div>`;
-
-let htmlJacky = `<div class="container">
-    <img src="profiles/jacky/img/jacky-cosplay-thumbnail.jpg" alt="Iron Falcon">
-    <p> Jacky is a small town guy who has big dreams for himself! He loves cliches and the old-school.
-    He thinks that Dinosaurs 2.0 are overrated and is trying to revert back to a world of Dinosaurs 1.0 
-    and Nokia 3310 brick phones.                      
-    <br><br>
-    In all seriousness, he is a web developer and wants to build the next Snappy Flamingo, Knifey Vegetables or 
-    FaceSpace the social network.
-    <br><br>
-    His hobbies are making cultural references even though he knows nothing about culture and trying to come
-    first at everything, but he may as well be in La La Land.</p>
-    </div>`; // make me tidy please
-
-=======
 let htmlJacky = `<div class= "container-fluid">
             <div class = "imageBackground"> <img id = "imageBackSource" src="${agents[1].imgBackground}" alt="hipster bird picture" style="max-width:300px;width: 100%;height: auto"></div>
             <hr> 
@@ -112,4 +74,3 @@ let htmlJacky = `<div class= "container-fluid">
                 </div>
             </div>
         </div>`;
->>>>>>> branch
