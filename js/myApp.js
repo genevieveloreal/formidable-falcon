@@ -30,7 +30,10 @@ let agents = [
         name: "Greg",
         codeName: "Sleepy Eagle",
         img: "profiles/greg/img/greg.jpg",
-        html: "handlers.loadGreg()"
+        html: "handlers.loadAgent(this)",
+        myHtml: function () {
+            return htmlGreg;
+        }
     }
 ];
 
@@ -47,10 +50,16 @@ let handlers = {
         }
         
     },
-    loadGreg () {
-        document.querySelector('title').innerText = agents[5].codeName;
-        document.getElementById('pageInfo').innerHTML = htmlGreg;
+    loadAgent (obj) {
+        let index = Number(obj.parentNode.id);
+        document.querySelector('title').innerText = agents[index].codeName;
+        document.getElementById('pageInfo').innerHTML = agents[index].myHtml();
     },
+    // loadGreg (obj) {
+    //     let index = Number(obj.parentNode.id);
+    //     document.querySelector('title').innerText = agents[index].codeName;
+    //     document.getElementById('pageInfo').innerHTML = htmlGreg;
+    // },
     loadDan () {
         document.querySelector('title').innerText = agents[4].codeName;
         document.getElementById('pageInfo').innerHTML = htmlDan;
@@ -69,11 +78,12 @@ let view = {
     loadAgents: function() {
         let agentsList =  document.getElementById('pageInfo');
         let agentsImageDiv = document.createElement('div');
-        agents.forEach(function(agent){
+        agents.forEach(function(agent, position){
             let agentHtml = document.createElement('div');
             agentHtml.classList.add("col-md-3", "col-sm-6", "col-xs-6");
             agentHtml.innerHTML = `<span onclick=" ${ agent.html } ">
             <img src=" ${ agent.img } " class="fade" alt=" ${ agent.codeName } "></span>`;
+            agentHtml.id = position;
             agentsImageDiv.appendChild(agentHtml);
         });
         agentsImageDiv.classList.add('pictures', 'row', 'clearfix');
@@ -84,9 +94,10 @@ let view = {
     buildNav: function() {
         let myUl = document.getElementById('myNavbar');
         myUl.innerHTML = '';
-        agents.forEach(function(agent){
+        agents.forEach(function(agent, position){
             let myLi = document.createElement('li');
             myLi.innerHTML = `<button onclick=" ${ agent.html }"> ${ agent.codeName } </button> `;
+            myLi.id = position;
             myUl.appendChild(myLi);
         });
     },
