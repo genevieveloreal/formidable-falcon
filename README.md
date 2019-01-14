@@ -27,3 +27,5 @@ You will need a GitHub account and git installed on your computer. To contribute
 **Bonus Challenge!** 
 
 For an added usability challenge, provide a way for the user to navigate back to the home page for Formidable Falcon, as well as a way to view the other member's pages.
+
+You can view the project here: https://genevieveloreal.github.io/formidable-falcon/
